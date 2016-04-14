@@ -1,0 +1,57 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="http://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="demo.css" rel="stylesheet" type="text/css">
+<link href="glabel.css" rel="stylesheet"
+	type="text/css">
+<title>glabel</title>
+</head>
+<body>
+
+	<div class="demo">
+		<h3 class="demo-title">glabel使用</h3>
+		<p>插件介绍：glabel标签是做一些标签的美化，依赖glabel.css,font-awesome.min.css(字体图标需要),可以右键查看源文件，看看具体用法</p>
+		<div class="gtitlebar left">
+			<span class="title">默认标签,直接span加上类glabel</span>
+		</div>
+		<span class = "glabel ">默认标签</span>
+		<div class="gtitlebar left">
+			<span class="title">改变情景颜色，加上对应的情景类,info,success,warning,danger,wounded,broke</span>
+		</div>
+		<span class = "glabel info">信息标签</span>
+		<span class = "glabel success">成功标签</span>
+		<span class = "glabel warning">提醒标签</span>
+		<span class = "glabel danger">危险标签</span>
+		<span class = "glabel wounded">伤心标签</span>
+		<span class = "glabel broken">心碎标签</span>
+		<div class="gtitlebar left">
+			<span class="title">加上图标，引入font-awesome,或者加图标</span>
+		</div>
+		<span class = "glabel info"><i class="fa fa-info-circle"></i>信息标签</span>
+		<span class = "glabel wounded"><i class = "fa fa-frown-o"></i>伤心标签</span>
+		<div class="gtitlebar left">
+			<span class="title">改变方向，加上direct-left-out或direct-right-out</span>
+		</div>
+		&nbsp;&nbsp;&nbsp;<span class = "glabel success direct-left-out"><a href = "#">成功标签</a></span>&nbsp;&nbsp;&nbsp;
+		<span class = "glabel warning direct-left-out direct-right-out">提醒标签</span>&nbsp;&nbsp;&nbsp;
+		<span class = "glabel wounded  direct-right-out"><i class = "fa fa-frown-o"></i>伤心标签</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="gtitlebar left">
+			<span class="title">链接标签，用a标签包裹</span>
+		</div>
+		<span class = "glabel danger"><a href = "#">打开链接</a></span>&nbsp;&nbsp;&nbsp;
+		<span class = "glabel wounded  direct-left-out"><a href = "#"><i class = "fa fa-frown-o"></i>打开链接</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="gtitlebar left">
+			<span class="title">气泡标签,将上radius，圆角属性需要在IE9才能体现</span>
+		</div>
+		<span class = "glabel radius">0</span>
+		<span class = "glabel success radius">1</span>
+		<span class = "glabel warning radius">4</span>
+		<span class = "glabel danger radius">8</span>
+		<span class = "glabel wounded radius">16</span>
+		<span class = "glabel broken radius">32</span>
+	</div>
+</body>
+</html>
